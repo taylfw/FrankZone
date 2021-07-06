@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(rgba(141, 139, 0, 0.432), rgba(156, 49, 0, 0.521)),url('background.jpg');
+    background-size: 1920px;
+    width: 1920px;
+    height: 150vh;
+    
+}
+
+main {
+    
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+table{
+    margin-top: 16%;
+    float:left;
+    width: 960px;
+}
+tbody{
+    text-align: center;
+    
+}
+img{
+    padding: 3%;
+    border: 1px solid black;
+    background-color: rgba(19, 19, 12, 0.603);
+    border-radius: 38% ;
+
+    
+}
+
+h1{
+    font-family: ubuntu;
+    text-align: center;
+    color: rgb(95, 7, 7);
+}

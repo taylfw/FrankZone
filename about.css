@@ -1,0 +1,48 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.938), rgba(102, 136, 102, 0.74)),url('/images/hero1.jpg');
+    background-size: cover;
+    height: 97vh;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.0);
+    padding-left: 80%;   
+}
+a{
+    color: rgb(252, 134, 0);
+    padding: 5%;
+    font-family: ubuntu;
+    text-decoration-line: none;
+    background-color: #686;
+    border-radius: 5%;
+    
+}
+
+h1{
+    color: rgb(252, 134, 0);
+    text-align: center;
+    font-family: ubuntu;
+}
+p{
+    color: rgb(252, 134, 0);
+    font-size: 22px;
+    font-family: ubuntu;
+}
+div{
+    margin-left: 25%;
+}
+.me{
+    flex: content;
+    text-align: center;
+    width: 45%;
+}
+footer{
+    text-align: center;
+    color: rgb(252, 134, 0);
+    font-family: ubuntu;
+    background-color: #686;    
+    height: 50px;
+    box-shadow: 0 50vh 0 50vh #686;
+    width: 100%;
+    position: fixed;
+    bottom: 20px;
+}
