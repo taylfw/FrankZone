@@ -68,6 +68,10 @@ a{
     background-color: #686;
     
 }
+a:hover {
+    background-color:rgb(252, 134, 0);
+    color: #686;
+}
 p{
     color: rgb(252, 134, 0);
     font-family: ubuntu;

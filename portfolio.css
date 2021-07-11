@@ -20,6 +20,10 @@ a{
     text-decoration-line: none;
     background-color: #686;
 }
+a:hover {
+    background-color:rgb(252, 134, 0);
+    color: #686;
+}
 h1{
     color: rgb(252, 134, 0);
     font-family: ubuntu;
