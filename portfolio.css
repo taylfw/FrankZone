@@ -41,6 +41,10 @@ table{
 }
 tbody{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+
 }
 
 .button{
@@ -52,9 +56,13 @@ tbody{
     margin-top: 8px;
     
 }
+tr{
+    flex-wrap: wrap;
+}
 td{
     width: 272.53px;
     height: 150px;
+
 }
 
 footer{
