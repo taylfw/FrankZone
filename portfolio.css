@@ -5,18 +5,18 @@ body{
 }
 header{
     background-color: rgba(0, 0, 0, 0.0);
-    padding-left: 80%;   
-    display: flex;
+    flex-wrap: wrap;  
+    display: flexbox;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-around;   
+    justify-content: flex-end;  
+    padding-bottom: 8px;
+    float: right;
 }
 a{
     color: rgb(252, 134, 0);
-    padding: 5%;
+    padding: 8px;
     font-family: ubuntu;
     border-radius: 5%;
-    /* font-size: large; */
     text-decoration-line: none;
     background-color: #686;
     
