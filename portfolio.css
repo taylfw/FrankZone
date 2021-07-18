@@ -19,6 +19,8 @@ a{
     /* font-size: large; */
     text-decoration-line: none;
     background-color: #686;
+    
+
 }
 a:hover {
     background-color:rgb(252, 134, 0);
@@ -38,18 +40,23 @@ main {
     width: 50%;
     margin-left: 25%;
 }
-table{
+/* table{
     margin-top: 16%;
     float:left;
     width: 960px;
+} */
+.container{
+    display: flex;
+    padding: 20px;
+    flex-flow: row wrap;
 }
-tbody{
+/* tbody{
     text-align: center;
     display: flex;
     flex-direction: column;
     
 
-}
+} */
 
 .button{
     text-decoration-line: none;
@@ -58,16 +65,18 @@ tbody{
     padding: 5px;
     background-color: #686;
     margin-top: 8px;
+    flex: 1 1 auto;
     
 }
-tr{
+/* tr{
     flex-wrap: wrap;
 }
 td{
     width: 272.53px;
     height: 150px;
+    display: flex; */
 
-}
+/* } */
 
 footer{
     text-align: center;
