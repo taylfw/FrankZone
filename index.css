@@ -20,6 +20,7 @@ img{
     background-color: rgba(19, 19, 12, 0.603);
     border-radius: 38% ;
     height: 180px;
+    margin-top: 8px;
 }
 
 
@@ -41,8 +42,15 @@ img{
     margin-top: 8%;
     display: flex;
     flex-direction: column;
+    justify-content: start;
     float: right;
     margin-bottom: 25px;
+}
+.albus{
+    margin: 0px;
+    float: inline-start;
+    display: flexbox;
+    justify-content: start;
 }
 
 h1{
