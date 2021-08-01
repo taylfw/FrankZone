@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  
+  html {
+    font-size: 24px;
+    font-family: 'Unica One', cursive;
+  }
+  body{
+    background: linear-gradient(to top,  #09330b, #474605); ;
+  }
+  
+  #app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 1rem 0;
+  }
+  
+  #app h1 {
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    margin-bottom: 8px;
+  }
+
+  .calculator{ 
+    display: grid; 
+    grid-template-rows: 100px auto; 
+    width: fit-content;
+ 
+    height: 475px;
+    
+  } 
+
+  .display { 
+    background-color: cadetblue;
+    border: 5px solid black ;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto repeat(4, 1fr);
+    grid-template-rows: auto repeat(2, 1fr);
+         } 
+  .controls{ 
+    border: 5px solid black ;
+    background: linear-gradient(to top, rgb(53, 61, 49), rgb(32, 32, 32));
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 73px); 
+    height: 400px;
+
+  } 
+
+  .memory{
+    grid-column: 1/ 4;
+    display: grid;
+    grid-row: 1;
+    grid-template-columns: 2fr 3fr;
+    grid-gap: 13px;
+    justify-content: center;
+
+
+  }
+
+
+  .memory button{
+    margin-bottom: 5px;
+    background:linear-gradient(to top, rgb(87, 87, 87), rgb(52, 52, 161));
+    font-size: 1em;
+    margin: 15px;
+    color:hsl(0, 52%, 18%);
+    box-shadow: 8px 5px 5px rgba(0, 0, 0, 0.404);
+    border-radius: 8%;
+
+  }
+
+  .operations{
+    display: grid;
+    grid-column: 4 / 5;
+    grid-row: 1 /6;
+    grid-gap: 13px;
+    grid-template-rows: repeat(5, 1fr);
+    margin: 10px;
+  }
+
+  .operations button{
+    background: linear-gradient(to top, tomato, rgb(165, 25, 0) );
+    box-shadow: 8px 5px 5px rgba(0, 0, 0, 0.404);
+    font-size: 22px;
+    color:rgb(0, 8, 56);
+    border-radius: 15%;
+  }
+
+  .digits{
+    display: grid;
+    grid-column: 1 /4;
+    grid-row: 2/6;
+    font-size: 22px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 13px;
+    margin: 15px;
+    /* justify-content: center; */
+    
+  }
+
+  
+  
+  .digits button{
+    background: linear-gradient(to top,rgb(104, 118, 133), rgb(82, 81, 81));
+    color: rgb(0, 66, 128);
+    font-size: 22px;
+    box-shadow: 8px 5px 5px rgba(0, 0, 0, 0.404);
+    border-radius: 15%;
+    
+  }
+
+  .digits button:hover{
+    box-shadow: 8px 5px 5px rgba(207, 245, 182, 0.404);
+  }
+
+  .next-value{
+    display: grid;
+    grid-row: 3/4;
+    grid-column: 6;
+    
+  }
+  .held-value{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+  }
+ 
+
