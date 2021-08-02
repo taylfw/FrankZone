@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    margin: 22px;
+
+}
+
+button:hover{
+    background-color: gold;
+}
+
+h1{
+    color: rgb(255, 123, 0);
+}
+h2{
+    color: rgb(255, 123, 0);  
+}
+
+code{
+    background: #505050;
+    color: #f5d67b;
+    font-family: monospace;
+    box-decoration-break: clone;
+    padding: .1rem .3rem .2rem;
+    border-radius: .2rem;
+
+}
