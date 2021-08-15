@@ -147,7 +147,7 @@ function myStopFunction() {
         if(head[0] < 1 || head[0] > 16 || head[1] < 1 || head[1] > 16 ){
           myStopFunction()
           
-          $('h1').text(`Your score is ${score}!  Press F5 to try again...`)
+          $('.gameEnd').text(`Your score is ${score}!  Press F5 to try again...`)
         }
       }
       //check for snake running into itself.

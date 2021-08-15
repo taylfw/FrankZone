@@ -38,4 +38,23 @@
     border: 1px solid black;
   }
 
+  .title{
+    display: flex;
+    margin: 25px;
+    font-size: 42px;
+    color: rgb(245, 85, 27);
+  }
+
+  .points{
+    font-size: 38px;
+    color: rgb(245, 85, 27);
+  }
+
+  .controls{
+    color: rgb(245, 85, 27);
+  }
+
+  .gameEnd{
+    color: rgb(245, 85, 27);
+  }
   
