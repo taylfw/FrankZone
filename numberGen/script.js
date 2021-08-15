@@ -31,7 +31,7 @@ function phoneGen(n){
 }
 
 //This is my comment
-let n = prompt('Please enter the length of your desired random number.');
+let n = prompt('Please enter the length of your desired random number. Less than 15, please. :)');
 
 if (n > 14){
     document.querySelector('h1').textContent = `That's too long, sorry!`;
