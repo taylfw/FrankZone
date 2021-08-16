@@ -28,7 +28,7 @@ $('button').click(function(){
 
     $('code').text(`background: linear-gradient(${deg}deg, ${first}, ${second})`)
     $('title').text('Not So boring!')
-    $('h2').text('If you like the background, copy and paste the above into your css file! Else if (keep clicking)')
+    $('h2').text('If you like the background, copy and paste the above into your css file!')
 
    
 
