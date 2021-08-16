@@ -159,7 +159,8 @@ function myStopFunction() {
       
       for(let i = 0; i < bodArr.length; i++){
         let tempIndex = bodArr[i].join(',')
-        let tempIndex2 = bodArr[i + 1]
+        let tempIndex2 = bodArr[i + 1].join(',')
+        
         if(tempIndex === tempIndex2){
           myStopFunction();
           $('.gameEnd').text(`Your score is ${score}!  Press F5 to try again...`)
