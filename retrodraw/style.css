@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #eee;
+    background: linear-gradient(122deg, rgb(45, 37, 42), rgb(34, 206, 39))
   }
   
   header {
