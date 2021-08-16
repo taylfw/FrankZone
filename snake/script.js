@@ -117,16 +117,16 @@ function myStopFunction() {
         //checking to see if new apple generated on snakes body.
         for (let i = 0; i < x.length +1; i++){
           if (gameState['apple'] !== x[i] || gameState['apple'] !== tail){
-            console.log(gameState['apple'], 'A');
+          
             makeApple(gameState);
           } else {
             gameState['apple'] = numbGen(2);
-            console.log(gameState['apple'], 'B');
+            
             makeApple(gameState);
           }
         }
         
-        console.log(gameState['apple']);
+        
         
         x.push([head[0]+ nD[0], head[1] + nD[1]]) 
         makeSnake(snake)
@@ -138,7 +138,7 @@ function myStopFunction() {
         x.push([head[0]+ nD[0], head[1] + nD[1]]) 
         
         makeSnake(snake)
-        console.log(x);
+        
       }
 
       //check if the snake runs off the board.
@@ -153,10 +153,17 @@ function myStopFunction() {
       //check for snake running into itself.
       for(let i = 0; i < x.length; i++){
         bodArr.push(x[i])
-        
+        bodArr.sort();
+               
       }
-      
-     
+      console.log(bodArr); 
+      for(let i = 0; i < bodArr.length; i++){
+        if(bodArr[i].join(',') === bodArr[i + 1].join(',')){
+          myStopFunction();
+          $('.gameEnd').text(`Your score is ${score}!  Press F5 to try again...`)
+        }
+               
+      }
       
   }
    
